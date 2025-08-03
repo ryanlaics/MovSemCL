@@ -1,5 +1,4 @@
-# MovSem: Movement-Semantics Contrastive Learning for Trajectory Similarity
-**AAAI 2026 Submission**
+# MovSem: Movement-Semantics Contrastive Learning for Trajectory Similarity - AAAI 2026 Submission
 
 ## Key Features
 - **Movement-Semantics Feature Extraction**: Converts raw GPS data into meaningful movement and semantic features
