@@ -5,7 +5,6 @@
 - **Hierarchical Representation Learning**: Utilizes intra-patch and inter-patch attention to capture multi-level trajectory information
 - **Curvature-Guided Augmentation**: A novel data augmentation strategy that improves model robustness
 - **Contrastive Learning**: Employs contrastive learning principles to learn discriminative trajectory embeddings
-- **Fine-tuning Support**: Supports fine-tuning to approximate existing heuristic trajectory similarity measures
 
 ## Project Structure
 ```
