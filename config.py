@@ -57,7 +57,7 @@ class Config:
     semmovcl_training_lr_degrade_gamma = 0.5
     semmovcl_training_lr_degrade_step = 5
     semmovcl_aug1 = 'adaptive_mask'
-    semmovcl_aug2 = 'subset'
+    semmovcl_aug2 = 'adaptive_mask'
     semmovcl_local_mask_sidelen = cell_size * 11
     
     # Transformer configuration
