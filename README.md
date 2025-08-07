@@ -87,4 +87,4 @@ python train_trajsimi.py --dataset germany --trajsimi_measure_fn_name hausdorff
 ```
 
 ## Acknowledgments
-We are deeply grateful to Dr. Yanchuan Chang for providing the dataset used in this research. Our code is built upon her TrajCL framework, which we consider to be the current state-of-the-art model for trajectory similarity calculation among published works.
+We sincerely thank the authors of TrajCL for generously sharing the codebase used in this study. Our implementation builds upon the TrajCL framework, which we regard as the current state-of-the-art among published methods for trajectory similarity computation.
