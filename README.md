@@ -1,4 +1,4 @@
-# MovSem: Movement-Semantics Contrastive Learning for Trajectory Similarity - AAAI 2026 Submission
+# MovSem: Movement-Semantics Contrastive Learning for Trajectory Similarity - AAAI 2026
 
 ## Key Features
 - **Movement-Semantics Feature Extraction**: Converts raw GPS data into meaningful movement and semantic features
@@ -57,7 +57,7 @@ python train.py
 #### Fine-tuning for Trajectory Similarity
 To fine-tune the pre-trained SemMovCL to learn to approximate existing heuristic trajectory similarity measures:
 ```bash
-python train_trajsimi.py --dataset germany --trajsimi_measure_fn_name hausdorff
+python train_trajsimi.py --trajsimi_measure_fn_name hausdorff
 ```
 
 ### Configuration
