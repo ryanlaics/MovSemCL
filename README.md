@@ -36,10 +36,7 @@ SemMovCL/
 ## Quick Start
 
 ### Dataset Download
-As an example, we provide a preprocessed Germany dataset:
-- **Germany Dataset (Preprocessed)**: [Download from Google Drive](https://drive.google.com/file/d/1J_HCICiutPlJbtDihoDk6_SdB8gRdC3y/view?usp=sharing)
-
-Extract the downloaded dataset and place it in the `SemMovCL/data/` directory.
+Extract the corresponding dataset and place it in the `SemMovCL/data/` directory.
 
 ### Installation
 1. **Setup project**:
@@ -52,9 +49,9 @@ Extract the downloaded dataset and place it in the `SemMovCL/data/` directory.
    ```
 
 ### Training and Testing
-#### Pre-training SemMovCL (using Germany dataset as example)
+#### Pre-training SemMovCL
 ```bash
-python train.py --dataset germany
+python train.py
 ```
 
 #### Fine-tuning for Trajectory Similarity
@@ -73,18 +70,18 @@ You can modify `config.py` to adjust:
 ## Usage Examples
 ### Basic Training
 ```bash
-# Train on Germany dataset with default settings
-python train.py --dataset germany
+# Train with default settings
+python train.py
 
 # Train with custom parameters
-python train.py --dataset germany --batch_size 64 --learning_rate 0.001
+python train.py --batch_size 64 --learning_rate 0.001
 ```
 
 ### Fine-tuning for Different Similarity Measures
 ```bash
 # Fine-tune for Hausdorff distance
-python train_trajsimi.py --dataset germany --trajsimi_measure_fn_name hausdorff
+python train_trajsimi.py --trajsimi_measure_fn_name hausdorff
 ```
 
 ## Acknowledgments
-We sincerely thank the authors of TrajCL for generously sharing the codebase used in this study. Our implementation builds upon the TrajCL framework, which we regard as the current state-of-the-art among published methods for trajectory similarity computation.
+We sincerely thank the authors of TrajCL for generously sharing the codebase and datasets used in this study. Our implementation is built upon the TrajCL framework, which we consider to represent the current SOTA among published methods for trajectory similarity computation. As we do not have the authority to redistribute the datasets, we kindly refer readers to the original TrajCL publication for access and details.
